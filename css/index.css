@@ -16,6 +16,10 @@ header img{
     background-color: white;
     padding: 10px 20px;
     margin: 20px auto;
+    text-align: left;
+}
+
+.descr h1{
     text-align: center;
 }
 
