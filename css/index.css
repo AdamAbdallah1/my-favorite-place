@@ -2,6 +2,11 @@ body {
     margin: 0;
     background-color: #FDCD23;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 header {
     display: flex;
@@ -10,6 +15,10 @@ header {
 
 header img{
     width: 150px;
+}
+
+main {
+    flex: 1;
 }
 
 .descr {
@@ -69,7 +78,18 @@ header img{
     text-align: left;
 }
 
+.page-2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.page-2 main{
+    flex: 1;
+}
+
 footer {
     background-color: white;
     text-align: center;
+    padding: 10px;
 }
