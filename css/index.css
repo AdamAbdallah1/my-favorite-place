@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to bottom, #FDC54B 0%, #FCB10D 100%);
+}
+
+header {
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    width: 25%;
+    padding: 10px 20px;
+    margin-left: 35%;
+}
+
+header h1{
+    margin-top: -0px;
+    display: inline;
+    padding: 10px 20px;
+}
