@@ -1,28 +1,33 @@
 body {
     margin: 0;
-    background-image: linear-gradient(to bottom, #FDC54B 0%, #FCB10D 100%);
+    background-color: #FDCD23;
 }
 
 header {
-    background-color: white;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    text-align: center;
-    width: 25%;
-    padding: 10px 20px;
-    margin-left: 35%;
+    display: flex;
+    justify-content: center;
 }
 
-header h1{
-    margin-top: -0px;
-    display: inline;
-    padding: 10px 20px;
+header img{
+    width: 150px;
 }
 
 section {
     background-color: white;
-    width: 300px;
-    border-radius: 20px;
     padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
 }
 
+.gallery {
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
