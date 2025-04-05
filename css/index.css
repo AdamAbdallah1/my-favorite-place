@@ -53,3 +53,14 @@ header img{
     background-color: #FDCD23;
     color: white;
 }
+
+.fun-facts {
+    background-color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+.fun-facts ul{
+    text-align: left;
+}
