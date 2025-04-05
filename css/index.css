@@ -31,3 +31,25 @@ section {
     margin: 10px;
     border-radius: 20px;
 }
+
+.button {
+    background-color: white;
+    width: 5%;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+.button a:hover {
+    background-color: #FDCD23;
+    color: white;
+}
